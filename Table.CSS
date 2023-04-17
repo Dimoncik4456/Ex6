@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+body{
+	background: url(https://images.prom.ua/3733139107_foto-fon-vinilovyj-patrioticheskij.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+P{
+	font-size: 50px;
+	border: solid 30px;
+	width: 50%;
+	text-align: center;
+	border-image: linear-gradient(darkblue,yellow) 30;
+	color: darkorange;
+}
+table{
+	border: double 4px darkorange;
+}
+th{
+	border: solid 2px OrangeRed;
+	color: yellow;
+	width: 12%;
+	height: 2cm;
+	font-size: 24px;
+}
+td{
+	border: solid 2px MediumBlue;
+	color: navy;
+	width: 10%;
+	height: 2cm;
+	font-size: 15px;
+}
+tr:hover{
+	background-color: orangered;
+}
+th:hover{
+	text-transform: uppercase;
+	background-image: url(https://media2.giphy.com/media/kkoRgXbTCPY3K/200w.gif?cid=6c09b952mbyyhogmirom1idv13doqen73d5aqv27wxncn7kg&rid=200w.gif&ct=g);
+}
+td:hover{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.5em;
+	background-image: url(https://media.tenor.com/UZswyok8T-oAAAAM/pride-rainbow.gif);
+}
+th:nth-child(odd){
+	background-color: navy;
+}
+tr:nth-child(odd){
+	background-color: deepskyblue;
+}
+tr:nth-child(even){
+	background-color: darkgreen;
+}
+td:nth-child(odd){
+	background-color: limegreen;
+}
+td:nth-child(even){
+	background-color: darkorange;
+}
+caption{
+	font-size: 50px;
+	font-family: 'Rubik Wet Paint', cursive;
+	color: gold;
+}
